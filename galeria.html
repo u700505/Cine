@@ -15,6 +15,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+	<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
 
   </head>
 
@@ -41,16 +43,16 @@
             <li class="nav-item">
               <a class="nav-link" href="criticas.html">Críticas</a>
             </li>
-			<li class="nav-item">
+			<li class="nav-item active">
               <a class="nav-link" href="galeria.html">Galería</a>
             </li>
-            <li class="nav-item dropdown active">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Sitio
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
                 <a class="dropdown-item" href="contacto.html">Contacto</a>
-                <a class="dropdown-item active" href="about.html">Sobre nosotros</a>
+                <a class="dropdown-item" href="about.html">Sobre nosotros</a>
               </div>
             </li>
 			<li class="nav-item">
@@ -65,58 +67,76 @@
     <div class="container">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Sobre nosotros
+      <h1 class="mt-4 mb-3">Galería
       </h1>
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="index.html">Inicio</a>
         </li>
-        <li class="breadcrumb-item active">Sobre nosotros</li>
+        <li class="breadcrumb-item active">Galería</li>
       </ol>
-	  
-	   <!-- Image Header -->
-      <img class="img-fluid rounded mb-4" src="img\logo2.jpg" alt="">
 
-      <!-- Intro Content -->
+      <!-- Trailers Row -->
       <div class="row">
-        <div class="col-lg-6">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4217.435081633706!2d-1.108898501152523!3d40.3521832320711!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x432f60a38244588b!2sEscuela+Universitaria+Polit%C3%A9cnica+Teruel!5e0!3m2!1sen!2sus!4v1546116626972" width="100%" height="400px" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <a  href="galeria1.html"><img class="rounded-circle img-fluid d-block mx-auto" src="img\Galeria1.jpg" alt=""></a>
+          <h3>Avengers 2: Age Of Ultron
+          </h3>
+		  <p>20 capturas</p>
         </div>
-        <div class="col-lg-6">
-          <h2>Acerca de mi página web</h2>
-          <p>Esta es una página web creada por Unai Galve para la asignatura "Ingeniería Web" impartida durante el primer cuatrimestre del curso 2018/2019 y perteneciente al grado en Ingeniería Informática</p>
-          <p>La temática de la web son los superhéroes en el cine.</p>
-          <p>La web dispone de tres secciones principales:</p>
-		  <ul>
-            <li>Noticias</li>
-            <li>Críticas</li>
-			<li>Trailers</li>
-          </ul>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <a  href="galeria2.html"><img class="rounded-circle img-fluid d-block mx-auto" src="img\Galeria2.jpg" alt=""></a>
+          <h3>Ant-Man and The Wasp
+          </h3>
+		  <p>19 capturas</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <a  href="galeria3.html"><img class="rounded-circle img-fluid d-block mx-auto" src="img\Galeria3.jpg" alt=""></a>
+          <h3>Doctor Strange
+          </h3>
+		  <p>16 capturas</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <a  href="galeria4.html"><img class="rounded-circle img-fluid d-block mx-auto" src="img\Galeria4.jpg" alt=""></a>
+          <h3>The Avengers
+          </h3>
+		  <p>15 capturas</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <a  href="galeria5.html"><img class="rounded-circle img-fluid d-block mx-auto" src="img\Galeria5.jpg" alt=""></a>
+          <h3>Batman V Superman
+          </h3>
+          <p>17 capturas</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <a  href="galeria6.html"><img class="rounded-circle img-fluid d-block mx-auto" src="img\Galeria6.jpg" alt=""></a>
+          <h3>Captain America: Civil War
+          </h3>
+          <p>18 capturas</p>
         </div>
       </div>
-      <!-- /.row -->
 
-      <!-- Team Members -->
-      <h2>Equipo</h2>
+      <hr>
 
-      <div class="row">
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100 text-center">
-            <img class="card-img-top" src="img\Team.jpg" alt="">
-            <div class="card-body">
-              <h4 class="card-title">Unai Galve</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Creador</h6>
-              <p class="card-text">Estudiante de Ingeniería Informática</p>
-			  <p class="card-text">22 años</p>
-            </div>
-            <div class="card-footer">
-              <a href="#">700505@unizar.es</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.row -->
+      <!-- Pagination -->
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item active">
+          <a class="page-link">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
 
     </div>
     <!-- /.container -->
@@ -124,7 +144,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Unai's Website 2018</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Unai´s Website 2018</p>
       </div>
       <!-- /.container -->
     </footer>
