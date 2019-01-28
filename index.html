@@ -1,256 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Ingenieria Web - Web de Unai Galve</title>
-	<link rel="shortcut icon" href="img/icono.ico">
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
-	<script src="https://unpkg.com/scrollreveal@4"></script>
-
-  </head>
-
-  <body>
-
-    <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Ingenieria Web - Web de Unai Galve</title>
+      <link rel="shortcut icon" href="img/icono.ico">
+      <!-- Bootstrap core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="css/modern-business.css" rel="stylesheet">
+      <script src="https://unpkg.com/scrollreveal@4"></script>
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+         <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/Logo2.jpg" class="logo" height="40px"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link active" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="noticias.html">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="trailers.html">Trailers</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="criticas.html">Críticas</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="galeria.html">Galería</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Sitio
+                     </a>
+                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                        <a class="dropdown-item" href="contacto.html">Contacto</a>
+                        <a class="dropdown-item" href="about.html">Sobre nosotros</a>
+                     </div>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="sesion.html">Iniciar Sesión</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <header>
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+               <!-- Slide One - Set the background image for this slide in the line below -->
+               <div class="carousel-item active" style="background-image: url('img/Carrousel1.jpg')">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h3 class="texto-portfolio">Trailer de Avengers 4: Endgame, ya disponible</h3>
+                     <p class="texto-portfolio">Échale un ojo en nuestra sección de Trailers</p>
+                  </div>
+               </div>
+               <!-- Slide Two - Set the background image for this slide in the line below -->
+               <div class="carousel-item" style="background-image: url('img/Carrousel3.jpg')">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h3 class="texto-portfolio">Crítica de Ant-Man and The Wasp, ya disponible</h3>
+                     <p class="texto-portfolio">Échale un ojo en nuestra sección de Críticas</p>
+                  </div>
+               </div>
+               <!-- Slide Three - Set the background image for this slide in the line below -->
+               <div class="carousel-item" style="background-image: url('img/Carrousel2.jpg')">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h3 class="texto-portfolio">Aquaman ya supera a Wonder Woman</h3>
+                     <p class="texto-portfolio">Échale un ojo en nuestra sección de Noticias</p>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+         </div>
+      </header>
+      <!-- Page Content -->
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="img/Logo2.jpg" class="logo" height="40px"></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="noticias.html">Noticias</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link" href="trailers.html">Trailers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="criticas.html">Críticas</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link" href="galeria.html">Galería</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Sitio
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="contacto.html">Contacto</a>
-                <a class="dropdown-item" href="about.html">Sobre nosotros</a>
-              </div>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link" href="sesion.html">Iniciar Sesión</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <header>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-		  <div class="carousel-item active" style="background-image: url('img/Carrousel1.jpg')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="texto-portfolio">Trailer de Avengers 4: Endgame, ya disponible</h3>
-              <p class="texto-portfolio">Échale un ojo en nuestra sección de Trailers</p>
+         <!-- Portfolio Section -->
+         <h2 class="my-4">Últimas Noticias</h2>
+         <div class="row">
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+               <div class="card h-100">
+                  <a href="noticia1.html"><img class="card-img-top" src="img\Noticias1_1.jpg" alt=""></a>
+                  <div class="card-body">
+                     <h4 class="card-title">
+                        <a href="noticia1.html" class="text-info">Aquaman ya supera a Wonder Woman</a>
+                     </h4>
+                     <p class="card-text">Impulsada por sus resultados en el mercado chino, en donde ya se instaló como el mayor hit estrenado por Warner Bros...</p>
+                  </div>
+               </div>
             </div>
-          </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('img/Carrousel3.jpg')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="texto-portfolio">Crítica de Ant-Man and The Wasp, ya disponible</h3>
-              <p class="texto-portfolio">Échale un ojo en nuestra sección de Críticas</p>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+               <div class="card h-100">
+                  <a href="noticia2.html"><img class="card-img-top" src="img\Noticias2_1.jpg" alt=""></a>
+                  <div class="card-body">
+                     <h4 class="card-title">
+                        <a href="noticia2.html" class="text-info">Acuerdo Disney-FOX, muy cerca</a>
+                     </h4>
+                     <p class="card-text">La cruzada de Disney para conseguir gran parte del mercado del entretenimiento sigue hacia adelante y la parte que interesa, como es la adquisición de Fox...</p>
+                  </div>
+               </div>
             </div>
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('img/Carrousel2.jpg')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="texto-portfolio">Aquaman ya supera a Wonder Woman</h3>
-              <p class="texto-portfolio">Échale un ojo en nuestra sección de Noticias</p>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+               <div class="card h-100">
+                  <a href="noticia3.html"><img class="card-img-top" src="img\Noticias3_1.jpg" alt=""></a>
+                  <div class="card-body">
+                     <h4 class="card-title">
+                        <a href="noticia3.html" class="text-info">Black Panther continúa sumando reconocimientos</a>
+                     </h4>
+                     <p class="card-text">La película “Black Panther” sigue alzándose en las nominaciones para premios. Lo último, ha sido en los premios que entrega la Asociación de Críticos de Cine de la Ciudad de la Música...</p>
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </header>
-
-    <!-- Page Content -->
-    <div class="container">
-
-      <!-- Portfolio Section -->
-      <h2 class="my-4">Últimas Noticias</h2>
-
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="noticia1.html"><img class="card-img-top" src="img\Noticias1_1.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="noticia1.html" class="text-info">Aquaman ya supera a Wonder Woman</a>
-              </h4>
-              <p class="card-text">Impulsada por sus resultados en el mercado chino, en donde ya se instaló como el mayor hit estrenado por Warner Bros...</p>
+         </div>
+         <!-- /.row -->
+         <h2 class="my-4">Últimas Críticas</h2>
+         <!-- Marketing Icons Section -->
+         <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+               <div class="card h-100">
+                  <a href="critica1.html"><img class="card-img-top" src="img\Critica1_1.jpg" alt=""></a>
+                  <div class="card-body">
+                     <h4 class="card-title">
+                        <a href="critica1.html">Ant-Man and The Wasp</a>
+                     </h4>
+                     <p class="card-text">Ant-Man y la Avispa ha sido la mejor oportunidad que hemos tenido de volver a coger aliento después de las últimas películas de Marvel.</p>
+                  </div>
+                  <div class="card-footer">
+                     <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="noticia2.html"><img class="card-img-top" src="img\Noticias2_1.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="noticia2.html" class="text-info">Acuerdo Disney-FOX, muy cerca</a>
-              </h4>
-              <p class="card-text">La cruzada de Disney para conseguir gran parte del mercado del entretenimiento sigue hacia adelante y la parte que interesa, como es la adquisición de Fox...</p>
+            <div class="col-lg-4 col-md-6 mb-4">
+               <div class="card h-100">
+                  <a href="critica2.html"><img class="card-img-top" src="img\Critica2_1.jpg" alt=""></a>
+                  <div class="card-body">
+                     <h4 class="card-title">
+                        <a href="critica2.html">Avengers: Infinity War</a>
+                     </h4>
+                     <p class="card-text">Tenemos ante nosotros la primera gran guerra, ideada y ejecutada con amor.</p>
+                  </div>
+                  <div class="card-footer">
+                     <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small>
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="noticia3.html"><img class="card-img-top" src="img\Noticias3_1.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="noticia3.html" class="text-info">Black Panther continúa sumando reconocimientos</a>
-              </h4>
-              <p class="card-text">La película “Black Panther” sigue alzándose en las nominaciones para premios. Lo último, ha sido en los premios que entrega la Asociación de Críticos de Cine de la Ciudad de la Música...</p>
+            <div class="col-lg-4 col-md-6 mb-4">
+               <div class="card h-100">
+                  <a href="critica3.html"><img class="card-img-top" src="img\Critica3_1.jpg" alt=""></a>
+                  <div class="card-body">
+                     <h4 class="card-title">
+                        <a href="critica3.html">Guardians of the Galaxy Vol. 2</a>
+                     </h4>
+                     <p class="card-text">Una más que digna secuela. Muy buena segunda parte de una brillante y ligeramente hilarante película.</p>
+                  </div>
+                  <div class="card-footer">
+                     <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
-      </div>
-	  <!-- /.row -->
-	  
-	  <h2 class="my-4">Últimas Críticas</h2>
-
-      <!-- Marketing Icons Section -->
-      <div class="row">
-        <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card h-100">
-                <a href="critica1.html"><img class="card-img-top" src="img\Critica1_1.jpg" alt=""></a>
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="critica1.html">Ant-Man and The Wasp</a>
-                  </h4>
-                  <p class="card-text">Ant-Man y la Avispa ha sido la mejor oportunidad que hemos tenido de volver a coger aliento después de las últimas películas de Marvel.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div>
-              </div>
+         </div>
+         <!-- /.row -->
+         <br>
+         <br>
+         <!-- Features Section -->
+         <div class="row">
+            <div class="col-lg-6">
+               <h2 >Último Trailer</h2>
+               <p>Avengers: Endgame</p>
+               <ul>
+                  <li><b>Estreno:</b> 24/04/2019</li>
+                  <li><b>Dirección:</b> Anthony Russo y Joe Russo</li>
+                  <li><b>Guión:</b> Christopher Markus y Stephen McFeely</li>
+               </ul>
+               <p>Tras los sucesos de "Vengadores: Infinity War", los superhéroes que sobrevivieron a Thanos se reunen para poner en práctica un plan definitivo que podría acabar con el villano definitivamente. No saben si funcionará, pero es su única oportunidad de intentarlo.</p>
             </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card h-100">
-                <a href="critica2.html"><img class="card-img-top" src="img\Critica2_1.jpg" alt=""></a>
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="critica2.html">Avengers: Infinity War</a>
-                  </h4>
-                  <p class="card-text">Tenemos ante nosotros la primera gran guerra, ideada y ejecutada con amor.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small>
-                </div>
-              </div>
+            <div class="col-lg-6">
+               <div class="embed-container2"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/svLSGZkTzC0?rel=0&showinfo=0&controls=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card h-100">
-                <a href="critica3.html"><img class="card-img-top" src="img\Critica3_1.jpg" alt=""></a>
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="critica3.html">Guardians of the Galaxy Vol. 2</a>
-                  </h4>
-                  <p class="card-text">Una más que digna secuela. Muy buena segunda parte de una brillante y ligeramente hilarante película.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div>
-              </div>
-            </div>
-      </div>
-      <!-- /.row -->
-	  <br>
-	  <br>
-
-      <!-- Features Section -->
-      <div class="row">
-        <div class="col-lg-6">
-          <h2 >Último Trailer</h2>
-          <p>Avengers: Endgame</p>
-          <ul>
-            <li><b>Estreno:</b> 24/04/2019</li>
-            <li><b>Dirección:</b> Anthony Russo y Joe Russo</li>
-            <li><b>Guión:</b> Christopher Markus y Stephen McFeely</li>
-          </ul>
-          <p>Tras los sucesos de "Vengadores: Infinity War", los superhéroes que sobrevivieron a Thanos se reunen para poner en práctica un plan definitivo que podría acabar con el villano definitivamente. No saben si funcionará, pero es su única oportunidad de intentarlo.</p>
-        </div>
-        <div class="col-lg-6">
-          <div class="embed-container2"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/svLSGZkTzC0?rel=0&showinfo=0&controls=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-    </div>
-    <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Unai's Website 2018</p>
+         </div>
+         <!-- /.row -->
+         <hr>
       </div>
       <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	
-	<script>
-		var slideUp = {
-			distance: '0%',
-			origin: 'bottom',
-			opacity: 0,
-			duration: 2000,
-			rotate: {
-				x: 90,
-				y: 0,
-				z: 0,
-			},
-			scale: 0.7,
-			interval: 100,
-		};
-		ScrollReveal().reveal('.col-lg-4', slideUp);
-		ScrollReveal().reveal('.col-lg-6', slideUp);
-	</script>
-
-  </body>
-
+      <!-- Footer -->
+      <footer class="py-5 bg-dark">
+         <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Unai's Website 2018</p>
+         </div>
+         <!-- /.container -->
+      </footer>
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script>
+         var slideUp = {
+             distance: '0%',
+             origin: 'bottom',
+             opacity: 0,
+             duration: 2000,
+             rotate: {
+                 x: 90,
+                 y: 0,
+                 z: 0,
+             },
+             scale: 0.7,
+             interval: 100,
+         };
+         ScrollReveal().reveal('.col-lg-4', slideUp);
+         ScrollReveal().reveal('.col-lg-6', slideUp);
+      </script>
+   </body>
 </html>
